@@ -1,0 +1,108 @@
+:root {
+    --main-color: #3b74ba;
+    --secondary-color: #a7a7a7;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-1 {
+    background-color: #f6f6f6;
+    width: 600px;
+    height: 600px;
+    padding: 30px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.container-1 .container-2 {
+    background-color: white;
+    padding: 15px;
+    margin-top: 50px;
+    width: 100%;
+    height: 90%;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    position: relative;
+}
+
+.container-1 .container-2 .image img {
+    position: absolute;
+    top: -26%;
+    left: 40%;
+}
+
+.container-1 .container-2 .text {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.container-1 .container-2 .text h3 {
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--main-color);
+    margin-bottom: 0;
+}
+
+.container-1 .container-2 .text p {
+    color: var(--secondary-color);
+    font-size: 19px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.container-1 .container-2 hr {
+    width: 90%;
+    color: #f6f6f6;
+}
+
+.container-1 .container-2 .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-1 .container-2 .links .lk {
+    background-color: #f6f6f6;
+    margin: 10px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.container-1 .container-2 .links .lk a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-1 .container-2 .res {
+    position: absolute;
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 25%;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+    bottom: -4%;
+    right: 7%;
+}
